@@ -14,6 +14,16 @@
 		5E7AA5E42C56A67F00276DF0 /* MRDeltaMaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AA5E32C56A67F00276DF0 /* MRDeltaMaryTests.swift */; };
 		5E7AA5EE2C56A67F00276DF0 /* MRDeltaMaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AA5ED2C56A67F00276DF0 /* MRDeltaMaryUITests.swift */; };
 		5E7AA5F02C56A67F00276DF0 /* MRDeltaMaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AA5EF2C56A67F00276DF0 /* MRDeltaMaryUITestsLaunchTests.swift */; };
+		5E7AA5FD2C56A8DE00276DF0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AA5FC2C56A8DE00276DF0 /* SignUpView.swift */; };
+		5E7AA5FF2C56A90600276DF0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AA5FE2C56A90600276DF0 /* LoginView.swift */; };
+		5E7AA6012C56AD0C00276DF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E7AA6002C56AD0C00276DF0 /* GoogleService-Info.plist */; };
+		5E7AA6042C56ADA500276DF0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5E7AA6032C56ADA500276DF0 /* FirebaseAuth */; };
+		5E7AA6062C56ADA500276DF0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5E7AA6052C56ADA500276DF0 /* FirebaseFirestore */; };
+		5E7AA6082C56AE3E00276DF0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AA6072C56AE3E00276DF0 /* MainView.swift */; };
+		5E7AA60A2C56AE6000276DF0 /* DeltaExplorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AA6092C56AE6000276DF0 /* DeltaExplorationView.swift */; };
+		5E7AA60C2C56AE7500276DF0 /* DeltaRevivalCampaignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AA60B2C56AE7500276DF0 /* DeltaRevivalCampaignView.swift */; };
+		5E7AA60E2C56AE8B00276DF0 /* VolunteerOpportunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AA60D2C56AE8B00276DF0 /* VolunteerOpportunitiesView.swift */; };
+		5E7AA6102C56AF2800276DF0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AA60F2C56AF2800276DF0 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,14 @@
 		5E7AA5E92C56A67F00276DF0 /* MRDeltaMaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRDeltaMaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7AA5ED2C56A67F00276DF0 /* MRDeltaMaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRDeltaMaryUITests.swift; sourceTree = "<group>"; };
 		5E7AA5EF2C56A67F00276DF0 /* MRDeltaMaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRDeltaMaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E7AA5FC2C56A8DE00276DF0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5E7AA5FE2C56A90600276DF0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5E7AA6002C56AD0C00276DF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E7AA6072C56AE3E00276DF0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5E7AA6092C56AE6000276DF0 /* DeltaExplorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaExplorationView.swift; sourceTree = "<group>"; };
+		5E7AA60B2C56AE7500276DF0 /* DeltaRevivalCampaignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaRevivalCampaignView.swift; sourceTree = "<group>"; };
+		5E7AA60D2C56AE8B00276DF0 /* VolunteerOpportunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerOpportunitiesView.swift; sourceTree = "<group>"; };
+		5E7AA60F2C56AF2800276DF0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E7AA6042C56ADA500276DF0 /* FirebaseAuth in Frameworks */,
+				5E7AA6062C56ADA500276DF0 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +116,15 @@
 			children = (
 				5E7AA5D22C56A67D00276DF0 /* MRDeltaMaryApp.swift */,
 				5E7AA5D42C56A67D00276DF0 /* ContentView.swift */,
+				5E7AA5FC2C56A8DE00276DF0 /* SignUpView.swift */,
+				5E7AA5FE2C56A90600276DF0 /* LoginView.swift */,
+				5E7AA6072C56AE3E00276DF0 /* MainView.swift */,
+				5E7AA6092C56AE6000276DF0 /* DeltaExplorationView.swift */,
+				5E7AA60B2C56AE7500276DF0 /* DeltaRevivalCampaignView.swift */,
+				5E7AA60D2C56AE8B00276DF0 /* VolunteerOpportunitiesView.swift */,
+				5E7AA60F2C56AF2800276DF0 /* ProfileView.swift */,
 				5E7AA5D62C56A67F00276DF0 /* Assets.xcassets */,
+				5E7AA6002C56AD0C00276DF0 /* GoogleService-Info.plist */,
 				5E7AA5D82C56A67F00276DF0 /* Preview Content */,
 			);
 			path = MRDeltaMary;
@@ -143,6 +171,10 @@
 			dependencies = (
 			);
 			name = MRDeltaMary;
+			packageProductDependencies = (
+				5E7AA6032C56ADA500276DF0 /* FirebaseAuth */,
+				5E7AA6052C56ADA500276DF0 /* FirebaseFirestore */,
+			);
 			productName = MRDeltaMary;
 			productReference = 5E7AA5CF2C56A67D00276DF0 /* MRDeltaMary.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +247,9 @@
 				Base,
 			);
 			mainGroup = 5E7AA5C62C56A67C00276DF0;
+			packageReferences = (
+				5E7AA6022C56ADA500276DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5E7AA5D02C56A67D00276DF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7AA5DA2C56A67F00276DF0 /* Preview Assets.xcassets in Resources */,
+				5E7AA6012C56AD0C00276DF0 /* GoogleService-Info.plist in Resources */,
 				5E7AA5D72C56A67F00276DF0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +294,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7AA5D52C56A67D00276DF0 /* ContentView.swift in Sources */,
+				5E7AA6102C56AF2800276DF0 /* ProfileView.swift in Sources */,
+				5E7AA5FD2C56A8DE00276DF0 /* SignUpView.swift in Sources */,
+				5E7AA5FF2C56A90600276DF0 /* LoginView.swift in Sources */,
+				5E7AA6082C56AE3E00276DF0 /* MainView.swift in Sources */,
 				5E7AA5D32C56A67D00276DF0 /* MRDeltaMaryApp.swift in Sources */,
+				5E7AA60A2C56AE6000276DF0 /* DeltaExplorationView.swift in Sources */,
+				5E7AA60E2C56AE8B00276DF0 /* VolunteerOpportunitiesView.swift in Sources */,
+				5E7AA60C2C56AE7500276DF0 /* DeltaRevivalCampaignView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +631,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5E7AA6022C56ADA500276DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E7AA6032C56ADA500276DF0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E7AA6022C56ADA500276DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5E7AA6052C56ADA500276DF0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E7AA6022C56ADA500276DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E7AA5C72C56A67D00276DF0 /* Project object */;
 }
